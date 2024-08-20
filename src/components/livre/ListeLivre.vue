@@ -1,4 +1,4 @@
-<!-- ListeLivre -->
+ListeLivre
 <script setup>
 import { computed } from 'vue';
 

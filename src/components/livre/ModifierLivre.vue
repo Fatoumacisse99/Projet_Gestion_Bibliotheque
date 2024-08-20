@@ -1,4 +1,4 @@
-<!-- ModifierLivre.vue -->
+ModifierLivre.vue
 <script setup>
 import { ref, watch } from 'vue';
 

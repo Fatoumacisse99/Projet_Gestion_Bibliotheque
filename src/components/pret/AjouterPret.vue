@@ -10,8 +10,7 @@ const dateRetour = ref('');
 
 const onSubmit = () => {
   emit('onAdd', id.value, montant.value, dateEmprunt.value, dateRetour.value);
-  
-  // Réinitialiser les champs
+
   id.value = '';
   montant.value = '';
   dateEmprunt.value = '';

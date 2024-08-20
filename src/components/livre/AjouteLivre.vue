@@ -1,4 +1,4 @@
-<!-- AjouteLivre -->
+AjouteLivre
 <script setup>
 import { ref, defineExpose } from 'vue';
 const emit = defineEmits(['onAdd']);
