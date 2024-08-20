@@ -1,4 +1,4 @@
-<!-- Livre.vue -->
+
 <script setup>
 import { ref } from 'vue';
 import ListeLivre from './ListeLivre.vue';
@@ -12,7 +12,6 @@ const livres = ref([
 
 const selectedLivre = ref(null);
 const selectedIndex = ref(null);
-
 
 const addLivre = (id, titre, auteur, annee) => {
   livres.value.push({ id, titre, auteur, annee });
@@ -31,6 +30,7 @@ const editLivre = (index) => {
   selectedLivre.value = { ...livres.value[index] };
   selectedIndex.value = index;
 };
+
 const viewLivreDetails = (index) => {
   selectedLivre.value = livres.value[index];
   const detailModal = new bootstrap.Modal(document.getElementById('detailLivreModal'));

@@ -1,4 +1,4 @@
-<!-- DetailLivre -->
+
 <script setup>
 import { ref, watch } from 'vue';
 
@@ -48,6 +48,3 @@ watch(() => props.livre, (newLivre) => {
     </div>
   </div>
 </template>
-
-<style scoped>
-</style>
