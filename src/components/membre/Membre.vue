@@ -1,3 +1,4 @@
+<!-- Membre.vue -->
 <template>
   <div class="container">
     <h1 class="text-center border-bottom mb-4">Gestion des Membres</h1>

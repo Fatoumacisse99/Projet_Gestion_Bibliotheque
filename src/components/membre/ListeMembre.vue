@@ -1,3 +1,4 @@
+
 <script setup>
 const emit = defineEmits(['onRemove', 'onEdit', 'onViewDetails']);
 
